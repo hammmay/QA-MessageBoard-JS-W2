@@ -1,4 +1,5 @@
 <li>
-  Question: {{question.title}}? Asked by {{question.author}}
+  Question: {{question.title}}? by {{question.author}}
+  {{update-question question=question update="update"}}
   <button {{action 'delete' question}}>Delete This Question</button>
 </li>
