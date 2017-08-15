@@ -7,13 +7,3 @@
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
-
-<h3>All Answers</h3>
-
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.response}} - Answer by {{answer.publisher}}</li>
-  {{/each}}
-</ul>
-
-{{new-answer saveAnswer="saveAnswer"}}

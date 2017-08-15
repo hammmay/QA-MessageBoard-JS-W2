@@ -1,7 +1,10 @@
 <h3>{{model.title}}</h3>
 
+<br>
+
+{{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
 {{update-question question=model update="update"}}
 
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+<br>
 
 {{new-answer saveAnswer="saveAnswer" question=model}}
