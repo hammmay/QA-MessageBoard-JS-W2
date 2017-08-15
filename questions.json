@@ -1,10 +1,17 @@
 { "questions": [{
-    "author": "Author 1 Example",
-    "title": "Title 1 Example",
-    "detail": "Detail 1 Example"
+    "author": "Beth-3417",
+    "title": "How do I delete a Git branch both locally and remotely?",
+    "detail": "I want to delete a branch both locally and on my remote project fork on GitHub and I keep getting this error when I try to delete: error: branch 'origin/bugfix' not found."
   }, {
-    "author": "Author 2 Example",
-    "title": "Title 2 Example",
-    "detail": "Detail 2 Example"
-  }]
+    "author": "Alexia",
+    "title": "How to redirect to another webpage in JavaScript/jQuery?",
+    "detail": "I keep seeing both window.location = url; and window.location.href = url; How are they different? Are they?"
+  }],
+  "answers": [{
+      "publisher": "Stew",
+      "response": "To delete the local branch use: $ git branch -d branch_name; and As of Git v1.7.0, you can delete a remote branch using this: $ git push origin --delete <branch_name>"
+    }, {
+      "publisher": "Ham",
+      "response": "jQuery is not necessary, and window.location.replace(...) will best simulate an HTTP redirect."
+    }]
 }
