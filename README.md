@@ -40,11 +40,11 @@ You will need the following things properly installed on your computer.
 
 ## Technologies Used
 
-JavaScript
-Ember
-Firebase
-Node
-Phantom
+* JavaScript
+* Ember
+* Firebase
+* Node
+* Phantom
 
 ### Legal
 
