@@ -1,5 +1,11 @@
 <h4>{{question.detail}}</h4>
 Author: {{question.author}}
 <br>
+<h3>Answers</h3>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
 <br>
-<button {{action 'delete' question}}>Delete</button>
+<button {{action 'delete' question}}>Delete This Question</button>
