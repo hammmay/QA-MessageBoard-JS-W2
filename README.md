@@ -1,9 +1,12 @@
-# qa-messageboard-js-w2
+# Count From Zero - Q&A Message Board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By Laura Hamilton
 
-## Prerequisites
+## Description
+
+This application is a Q&A message board, demonstrating Javascript through both Ember and Firebase. A user can create, update, and delete a question. A user can also answer any question and delete their answers. All question entries are displayed on the homepage, and all the answers are assigned to the individual question pages.
+
+## Setup
 
 You will need the following things properly installed on your computer.
 
@@ -13,19 +16,17 @@ You will need the following things properly installed on your computer.
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
-
-* `git clone <repository-url>` this repository
-* `cd qa-messageboard-js-w2`
-* `npm install`
+|Enter these commands in your console|
+|---|
+|`git clone <repository-url>` this repository|
+|`cd qa-messageboard-js-w2`|
+|`npm install`|
 
 ## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+|Enter these commands in your console|
+|---|
+|`ember serve`|
+|Visit the app at [http://localhost:4200](http://localhost:4200)|
 
 ### Running Tests
 
@@ -37,14 +38,16 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Technologies Used
 
-Specify what it takes to deploy your app.
+JavaScript
+Ember
+Firebase
+Node
+Phantom
 
-## Further Reading / Useful Links
+### Legal
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Copyright (c) 2017 Laura Hamilton laurahamilton9@gmail.com
+
+This software is licensed under the MIT license.
