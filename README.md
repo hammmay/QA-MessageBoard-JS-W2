@@ -52,6 +52,7 @@ You will need the following things properly installed on your computer.
   * Answer dependency within Question dependency
 
 2. Specs
+
 |Behavior - Plain English|Input|Output|
 |---|---|---|
 |User clicks on the "Post A New Question" button on the homepage and an "Ask The Community" form with fields for a new question appears on the homepage|User clicks on the "Post A New Question" button|An "Ask The Community" form for a new question appears|
